@@ -1,0 +1,181 @@
+/* Reset */
+
+* {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;2
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+	display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* --- CSS  --- */
+
+h1 {
+    font-family: Helvetica;
+	font-size: 50px;
+	font-style:normal;
+	font-variant: normal;
+	font-weight: 800;
+    color: #FD1A62;
+}
+
+h2 {
+    font-family: Helvetica;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 20;
+    line-height: 1.5
+}
+
+h3 {
+    font-family: Helvetica;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 20;
+}
+p {
+    font-family: Helvetica;
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 20;
+    line-height: 1.5;
+}
+
+.topcontainer {
+    background-color: #2A0A29;
+    color: #FFFF;
+    padding: 25px 0 25px 0;    
+}
+h2 .smalltext {
+    color: #FD1A62;
+    font-size: 16px;
+}
+
+.screencontainer {
+    background-color: #4C0B5F;
+    color: cornsilk;
+    padding: 70px 0 25px 0;
+}
+
+.title {
+    margin-left: 25%;
+}
+
+.container {
+    background-color:white;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.grelha{
+    border: 20px;
+    
+}
+
+article {
+    color: grey;
+    margin: 1px;
+    padding: 25px;
+    border: solid 1px grey;
+}
+
+.titlegrid {
+    
+}
+
+.textgrid {
+    padding-top: 25px;
+}
+
+
+@media (max-width: 800px) { 
+    .container{ background-color:white;
+    display: grid;
+    grid-template-columns: auto auto auto;}
+}
+
+@media (max-width: 600px) { 
+    .container{ background-color:white;
+    display: grid;
+    grid-template-columns: auto auto;}
+}
+
+@media (max-width: 400px) { 
+    .container{ background-color:white;
+    display: grid;
+    grid-template-columns: auto;}
+}
